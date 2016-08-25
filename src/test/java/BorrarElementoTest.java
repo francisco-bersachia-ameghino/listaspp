@@ -5,9 +5,15 @@ import org.junit.Test;
 import java.util.Arrays;
 
 */
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.Arrays;
+
 /**
  * Created by damian on 17/08/16.
- *//*
+ */
 
 public class BorrarElementoTest {
     @Test
@@ -23,7 +29,7 @@ public class BorrarElementoTest {
     }
 
     @Test
-    public void borrarTodosElemento() {
+    public void borrarTodosElemento2() {
         MiLista lista = new MiLista(Arrays.asList("casa", "hola", "casa"));
 
         Assert.assertTrue(lista.existe("casa"));
@@ -34,4 +40,4 @@ public class BorrarElementoTest {
 
     }
 }
-*/
+

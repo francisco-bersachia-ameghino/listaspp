@@ -5,9 +5,15 @@ import org.junit.Test;
 import java.util.Arrays;
 
 */
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.Arrays;
+
 /**
  * Created by damian on 17/08/16.
- *//*
+ */
 
 public class BuscarElementoEnListaTest {
 
@@ -24,8 +30,8 @@ public class BuscarElementoEnListaTest {
 
     }
 
-    @Test
-    public void existeString(){
+ @Test
+    public void existeString2(){
 
         MiLista lista = new MiLista(Arrays.asList("hola", "3", "casa" ,"adios"));
 
@@ -38,20 +44,19 @@ public class BuscarElementoEnListaTest {
     }
 
     @Test
-    public void existeString(){
+    public void existeString3(){
 
         Persona p1 = new Persona("Juan Perez" , 35444586);
         Persona p2 = new Persona("Juan Perez" , 38458999);
 
         MiLista lista = new MiLista(Arrays.asList(p1,p2));
-
+/*
         Assert.assertTrue(lista.existeString("hola"));
         Assert.assertTrue(lista.existeString("3"));
         Assert.assertTrue(lista.existeString("casa"));
         Assert.assertTrue(lista.existeString("adios"));
-        Assert.assertFalse(lista.existeString("no existo en esta lista"));
+        Assert.assertFalse(lista.existeString("no existo en esta lista"));*/
 
     }
 
 }
-*/

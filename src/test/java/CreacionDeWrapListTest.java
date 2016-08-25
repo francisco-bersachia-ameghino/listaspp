@@ -19,11 +19,11 @@ public class CreacionDeWrapListTest {
 
     }
 
-    /*@Test
-    public void crearMiListaDeNumeros(){
+    @Test
+    public void crearMiListaDeNumeros2(){
         List<String> lista = Arrays.asList("casa", "hola", "Chau");
         MiLista<String> listaDeNumeros = new MiLista(lista);
 
         Assert.assertEquals(listaDeNumeros.lista, lista);
-    }*/
+    }
 }

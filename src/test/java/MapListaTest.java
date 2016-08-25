@@ -6,14 +6,20 @@ import java.util.Arrays;
 import java.util.stream.Stream;
 
 */
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.Arrays;
+
 /**
  * Created by damian on 18/08/16.
- *//*
+ */
 
 public class MapListaTest {
     @Test
     public void sumarUnoATodos() {
-        MiLista lista = new MiLista(Arrays.asList(2, 3, 5, 6, 8, 9));
+        MiLista<Integer> lista = new MiLista(Arrays.asList(2, 3, 5, 6, 8, 9));
 
         lista.sumarUnoATodos();
 
@@ -22,7 +28,7 @@ public class MapListaTest {
     }
 
     @Test
-    public void sumarUnoATodos() {
+    public void sumarUnoATodos2() {
         MiLista lista = new MiLista(Arrays.asList(2, 3, 59));
 
         lista.convertirAString();
@@ -32,7 +38,7 @@ public class MapListaTest {
     }
 
     @Test
-    public void sumarUnoATodos() {
+    public void sumarUnoATodos3() {
         MiLista lista = new MiLista(Arrays.asList(2, 3, 59));
 
         lista.convertirAString();
@@ -43,4 +49,3 @@ public class MapListaTest {
 
 
 }
-*/
